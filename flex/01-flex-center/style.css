@@ -3,6 +3,14 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+
+  /*first add flex container*/
+  display: flex;
+  /*aligns to vertical center*/
+  justify-content: center;
+  /*aligns to horizontal center*/
+  align-items: center;
+  /*must use both to align to complete center*/
 }
 
 .box {
@@ -12,4 +20,5 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+
 }
