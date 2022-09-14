@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -25,3 +26,43 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style-type: none; /* remove bullet points*/
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+
+}
+
+a {
+  text-decoration: none; /* remove list underlines */
+}
+
+.footer {
+  display: flex;
+  background-color: lightgray;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.content {
+  flex: 1; /* makes content fit to entire page*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
